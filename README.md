@@ -1,3 +1,23 @@
+This fork
+
+This fork is by David Golds in order to improve gitbook since it's basically dead. So far it's just faster for glossary generation - with a large glossary I'm getting over 2x perf with this version.
+
+To use it locally - first clone and `npm install`.. then in your folder where you are using gitbook-cli to build your book do...
+
+gitbook alias  ~/code/dgolds/gitbook latest
+
+...obviously change that path to where you have actually cloned it ...
+
+
+Then you can use this via
+
+gitbook --gitbook latest build
+
+glhf
+---
+
+
+
 > ## ⚠️ Deprecation warning:
 > As the efforts of the GitBook team are focused on the [GitBook.com](https://www.gitbook.com) platform, the CLI is no longer under active development.  
 > All content supported by the CLI are mostly supported by our [GitBook.com / GitHub integration](https://docs.gitbook.com/integrations/github).  
